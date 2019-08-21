@@ -1,0 +1,28 @@
+.panel_graph {
+    margin: 20px 0px 50px 0px;
+}
+
+.pg_area, .pj_area {
+    position: relative;
+    width: 980px;
+    height: auto;
+    overflow: hidden;
+}
+
+.pg_content {
+	height:560px;
+    width: 978px;
+    background-color: #f7f7f7;
+    border: #e5e5e5 solid 1px;
+    padding-top: 10px;
+}
+
+ul.graph_list {
+    float: right;
+    display: inline;
+}
+ul.gragh_list li {
+    float: left;
+    display: inline;
+    width: 400px;
+}

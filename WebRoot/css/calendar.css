@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+/*日历*/
+.calendar *{box-sizing:border-box;font-size:14px}
+.calendar-sm{cursor:default;width:520px;height:370px}
+.calendar{cursor:default;width:520px;height:370px;}
+.calendar-sm .c-pad-top{padding-top:2%}
+.c-event-top{width:100px;height:370px;background: #181f28;float: left;position: relative;}
+/*.calendar .c-pad-top{padding-top:3%}*/
+.c-grid{height:370px;width:420px;float:left;background: #fff;color: #bbc3cd;}
+.c-day{border-radius: 3px;width:50px;height:45px;float:left;text-align:center;margin: 5px 5px 0px 5px;color: #bbc3cd;line-height: 45px;}
+.c-day-previous-month{width:50px;height:45px;float:left;text-align:center;color:gray;margin: 5px 5px 0px 5px;}
+.c-day-next-month{width:50px;height:45px;float:left;text-align:center;color:gray;margin: 5px 5px 0px 5px;}
+.c-week-day{width:60px;height:10.38%;line-height: 25px;float:left;text-align:center;padding-top:1%}
+.c-next{width:24px;height:24px;text-align:right;cursor:pointer;text-align: center;background: url(../images/you.png);position: absolute;bottom:15px;right: 15px;}
+.c-previous{width:24px;height:24px;text-align:left;cursor:pointer;text-align: center;background: url(../images/zuo.png);position: absolute;bottom:15px;right: 50px;}
+.c-month{width:100%;height:inherit;text-align:center;}
+.c-month-top{font-size: 22px;margin-top: 90px;color:#fff;}
+.c-month-center{font-size: 92px;color: #fff;}
+.c-month-bottom{font-size: 22px;height: 30px}
+.c-nav-btn-over{}
+.title{float: left;}
+.description{float: left;}
+
+
+

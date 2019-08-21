@@ -1,0 +1,232 @@
+.district_overview {
+	display: block;
+	width: auto;
+	height: 500px;
+	/*background-color:rgba(205,249,236,0.3);*/
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-image:url(../images/w1.png);
+}
+.overview {
+	display:block;
+	background-color:rgba(250,250,250,0.5);
+	margin:0px 200px;
+}
+.district {
+	display: block;
+	margin:10px 0px;
+}
+
+.air_details {
+	display: block;
+	margin: 0px 0px;
+	padding-top: 20px;
+	height: 180px;
+}
+.choose_district {
+    display: inline-block;
+}
+.choose {
+    background-color: cadetblue;
+    color: white;
+	width:inherit;
+	height: inherit;
+    font-size: 45px;
+    border: none;
+    cursor: pointer;
+	margin-left:20px;
+}
+.thisdistrict {
+	display: inline-block;
+	text-align: center;
+	font-size: 45px;
+	color: #1B9525;
+	margin: 10px 50px;
+}
+.districts {
+    display: none;
+    position:absolute;
+	float: left;
+    background-color: #F7F5F5;
+    max-width: 240px;
+}
+.districts a {
+    color: black;
+    padding: 0px 10px;
+	width: 60px;
+    text-decoration: none;
+    display: block;
+	float:left;
+}
+.districts a:hover {background-color: rgba(255,255,255,1);}
+.choose_district:hover .districts {
+    display: block;
+}
+.choose_district:hover .choose {
+    background-color: #0B7664;
+}
+.notes {
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 100px;
+	text-align: left;
+	color:gray;
+}
+.hr {
+	align-content: center;
+	margin: 0px 0px;
+}
+/*各项指标数值*/
+.air_details {
+	display: block;
+	margin-top: 20px;
+}
+.aqi,.pm25,.pm10,.co,.o3,.no2,.so2{
+	float:left; 
+	display:inline-block; 
+	position:relativ; 
+	text-align:center; 
+	width: 100px;
+	height: 100px;
+	margin: 0px 15px;
+	border-radius: 100%; 
+	/*border:dashed;
+	border-color:rgba(163,239,170,0.9);*/
+	background-color:#9DDFE0;
+	opacity: 0.5;
+}
+.num {
+	line-height: 100px;
+	color:black; 
+	font-size:30px;
+}
+.name{
+	font-size:24px; 
+	display: black;
+	margin-top: 10px;
+	margin-left: 30px;
+	color:black;
+	position:absolute; 
+}
+.content {
+	display: block;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+	margin-left:50px;
+	padding-bottom:150px;
+}
+/*明日预测*/
+.predit{
+	display:block;
+	width: 980px;
+	height: auto;
+	margin: 20px;
+	background-color:beige;
+	border-color: gray;
+	border-radius: 2%;
+}
+.predit_title {
+	text-align: center;
+	font-size: 30px;
+	padding:30px 0px;
+}
+.predit_content {
+	display: block;
+}
+.grade {
+	display: inline-block;
+	float:left;
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	margin-left: 150px;
+	border-radius: 100%;
+	background-color: rgba(21,160,24,0.65);
+}
+.grade p {
+	color:gray;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+.predit_notes {
+	display: inline-block;
+	margin-top: 10px;
+	padding-left:100px;
+	text-align: left;
+	color:gray;
+	font-size: 20px;
+}
+.grade_img {
+	width:500px;
+	margin: 10px 100px;
+}
+.tips {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 150px;
+	padding-bottom:50px;
+	text-align: left;
+	color:gray;
+	font-size: 20px;
+}
+
+.pm_grade {
+	display: block;
+	border:solid;
+	border-color:rgba(255,255,255,1.00);
+}
+.choose_grade {
+	display:inline-block;
+	overflow:hidden;
+	padding-left:20px;
+}
+.choose_grade li {
+	display:block;
+	width:150px;
+	height: 30px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+#g1{background-color: rgba(21,160,24,0.65);}
+#g2{background-color: rgba(234,243,142,0.82);}
+#g3{background-color: rgba(244,166,106,0.79);}
+#g4{background-color: rgba(240,133,135,0.86);}
+#g5{background-color: rgba(211,100,221,0.75);}
+#g6{background-color: rgba(112,30,154,0.73);}
+.grades {
+	display: inline-block;
+}
+.gra{
+	width: 800px;
+	height: 180px;
+	background-color: rgba(21,160,24,0.65);
+}
+/*
+.grade1{background-color: rgba(21,160,24,0.65)}
+.grade2{background-color: rgba(234,243,142,0.82)}
+.grade3{background-color: rgba(244,166,106,0.79)}
+.grade4{background-color: rgba(240,133,135,0.86)}
+.grade5{background-color: rgba(211,100,221,0.75)}
+.grade6{background-color: rgba(112,30,154,0.73)}
+*/
+.grades td {
+	height:35px;
+	text-align: center;
+	vertical-align:middle;
+	padding:5px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+/*监测点表格*/
+.panel_jiance{ margin:30px 0px 40px 0px;}
+.pj_area{}
+.pj_area_tab{}
+.pj_area_tab a{}
+.pj_area_data{ width:978px; border:#e5e5e5 solid 1px;}
+.pj_area_data_title{ height:45px; line-height:45px; background-color:#e8e8e8; font-size:14px;}
+.pj_area_data_title span,.pj_area_data_title a{ float:left; display:inline; color:#555; text-align:center;}
+.pj_area_data_title span.pjadt_location,.pj_area_data_title a.pjadt_aqi{text-align:left; text-indent:20px;}
+/*表头*/
+.pg_title{
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0px 20px 0px;
+    text-indent: 20px;
+}
+.pjadt_location {
+    width: 180px;
+}
+.pjadt_aqi {
+    width: 100px;
+}
+.pjadt_quality {
+    width: 170px;
+}
+.pjadt_wuranwu {
+    width: 140px;
+    height: 30px;
+    overflow: hidden;
+}
+.pjadt_pm25 {
+    width: 170px;
+}
+.pjadt_pm10 {
+    width: 170px;
+}
+/*表数据*/
+ul.pj_area_data_details li.pj_area_data_item {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: #efefef solid 1px;
+    background-color: #fff;
+}
+ul.pj_area_data_details li.pj_area_data_item a.pjadt_location {
+    color: #1e9e69;
+    text-decoration: underline;
+}
+ul.pj_area_data_details li.pj_area_data_item .pjadt_location {
+    text-align: left;
+    overflow: hidden;
+    text-indent: 20px;
+}
+ul.pj_area_data_details li.pj_area_data_item a, ul.pj_area_data_details li.pj_area_data_item span {
+    float: left;
+    display: inline;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+ul.pj_area_data_details li.pj_area_data_item {
+	list-style:none
+}

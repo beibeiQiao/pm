@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>	
+  
+  <servlet>
+    <servlet-name>ServletQueryAllData</servlet-name>
+    <servlet-class>servlet.ServletQueryAllData</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletQueryAllData</servlet-name>
+    <url-pattern>/ServletQueryAllData</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ServletQueryDay</servlet-name>
+    <servlet-class>servlet.ServletQueryDay</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletQueryDay</servlet-name>
+    <url-pattern>/ServletQueryDay</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>ServletQueryAqi</servlet-name>
+    <servlet-class>servlet.ServletQueryAqi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletQueryAqi</servlet-name>
+    <url-pattern>/ServletQueryAqi</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
